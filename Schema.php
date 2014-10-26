@@ -7,8 +7,9 @@
  * @updated by Ricardo Obregón <robregonm@gmail.com>
  * @updated by Edgard messias <edgardmessias@gmail.com>
  * @updated by Sergey Rusakov <srusakov@gmail.com>
+ * @updated by Sergey Rusakov <ksideks@gmail.com>
  */
-namespace srusakov\firebirddb;
+namespace ksideks\firebirddb;
 use yii\db\TableSchema;
 
 /**
