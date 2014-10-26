@@ -204,10 +204,6 @@ class Schema extends \yii\db\Schema
 
             $key = strtolower(rtrim($fkey['lfield']));
             $table->foreignKeys[$key] = array(strtolower(rtrim($fkey['ftable'])), strtolower(rtrim($fkey['ffield'])));
-
-            if (isset($table->columns[$key])) {
-                $table->columns[$key]->isForeignKey = true;
-            }
         }
     }
 
