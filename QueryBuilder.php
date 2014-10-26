@@ -7,7 +7,7 @@
  * @modified by Ricardo Obregón <robregonm@gmail.com>
  * @updated by Sergey Rusakov <srusakov@gmail.com>
  */
-namespace srusakov\firebirddb;
+namespace ksideks\firebirddb;
 
 /**
  * CFirebirdCommandBuilder provides basic methods to create query commands for tables of Firebird Servers.
