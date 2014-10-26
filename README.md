@@ -23,11 +23,11 @@ Installation
 ```json
 ...
 "require": {
-    "srusakov/firebirddb": "*"
+    "ksideks/firebirddb": "*"
 	},
   "repositories":[{
       "type":"git",
-      "url":"http://github.com/srusakov/yii2-firebirddb",
+      "url":"http://github.com/ksideks/yii2-firebirddb",
   }]
 ...
 ```
@@ -43,9 +43,9 @@ return [
             'username' => 'sysdba',
             'password' => 'masterkey',
             'charset' => 'utf8',
-            'pdoClass' => 'srusakov\firebirddb\PDO',
+            'pdoClass' => 'ksideks\firebirddb\PDO',
             'schemaMap' => [
-                                'firebird' => 'srusakov\firebirddb\Schema', // FireBird
+                                'firebird' => 'ksideks\firebirddb\Schema', // FireBird
                             ],
         ],
 ]
@@ -64,4 +64,4 @@ This driver is not well tested in production ebvironment! Use it at your own ris
 Thanks to
 ---------
 
-@idlesign, @robregonm, @edgardmessias, @mr-rfh, @mlorentz75
+@idlesign, @robregonm, @edgardmessias, @mr-rfh, @mlorentz75, @srusakov
