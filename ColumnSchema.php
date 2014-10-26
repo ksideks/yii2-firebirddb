@@ -8,7 +8,7 @@
  * @updated by Edgard messias <edgardmessias@gmail.com>
  * @updated by Sergey Rusakov <srusakov@gmail.com>
  */
-namespace srusakov\firebirddb;
+namespace ksideks\firebirddb;
 
 /**
  * CFirebirdColumnSchema class describes the column meta data of a Firebird table.
