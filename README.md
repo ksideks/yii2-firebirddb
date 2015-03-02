@@ -12,7 +12,7 @@ Requirements
 * PHP 5.4
 * PDO_Firebird extension enabled.
 * Firebird 2.5 (not tested on previous versions)
-* Yii 1.1.9
+* Yii 2.x
 
 
 Installation
